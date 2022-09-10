@@ -4,7 +4,7 @@
 *main - Entry point
 *
 *Description: prints the sizes of various data type
-* 
+*
 *Return: Always 0 (Success)
 *
 */
