@@ -10,9 +10,9 @@ int main(void)
 	int m_n;
 	int l_n;
 
-	while (x <= 99)
+	while (x <= 999)
 	{
-		f_n = (x / 100 + '0');
+		if_n = (x / 100 + '0');
 		m_n = (x / 10 % 10 + '0');
 		l_n = (x % 10 + '0');
 
