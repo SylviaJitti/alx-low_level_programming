@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - program that prints all possible combinations of two two-digit numbers.
+ * main - program that prints all possible combinations of 2 2 digits
  * Return: 0
  */
 int main(void)
@@ -9,10 +9,10 @@ int main(void)
 	int f_n = 0;
 	int s_n;
 
-	while (f_n <= 99)
+	while (f_n <= 100)
 	{
 		f_n = s_n;
-		while (s_n <= 99)
+		while (s_n <= 100)
 		{
 			if (s_n != f_n)
 			{
