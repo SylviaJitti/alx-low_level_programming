@@ -1,37 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - program that prints all possible combinations of 2 2 digits
- * Return: 0
+ * Return: Always Success
  */
 int main(void)
 {
-	int f_n = 0;
+	int f_n;
 	int s_n;
 
-	while (f_n <= 98)
-	{
-		f_n = s_n;
-		while (s_n <= 99)
-		{
-			if (s_n != f_n)
-			{
-				putchar((f_n / 10) + 48);
-				putchar((f_n % 10) + 48);
-				putchar(' ');
-				putchar((s_n / 10) + 48);
-				putchar((s_n % 10) + 48);
+	for (f_n = 0; f_n <= 98; f_n++)
 
-				if (f_n != 98 || s_n != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			s_n++;
-		}
-		f_n++;
+	{
+	
+	for (s_n = f_n + 1; s_n <= 99; s_n++)
+	
+	{
+
+		putchar((f_n / 10) + '0');
+		putchar((f_n % 10) + '0');
+		putchar(' ');
+		putchar((s_n / 10) + '0');
+		putchar((s_n % 10) + '0');
+
+		if (f_n == 98 && s_n == 99)
+
+		continue;
+		putchar(',');
+		putchar(' ');
 	}
+
+	}
+
 putchar ('\n');
 return (0);
 }
