@@ -9,7 +9,7 @@ int main(void)
 	int f_n = 0;
 	int s_n;
 
-	while(fn <= 99)
+	while(f_n <= 99)
 	{
 		f_n = s_n;
 		while(s_n <= 99)
