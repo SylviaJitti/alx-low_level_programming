@@ -13,9 +13,7 @@ int main(void)
 	for (f_n = 0; f_n <= 98; f_n++)
 
 	{
-	
 	for (s_n = f_n + 1; s_n <= 99; s_n++)
-	
 	{
 
 		putchar((f_n / 10) + '0');
