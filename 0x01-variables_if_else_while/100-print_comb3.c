@@ -9,7 +9,7 @@ int main(void)
 	int f_n;
 	int l_n;
 
-	while (c <= 99)
+	while (x <= 99)
 	{
 		f_n = (x / 10 + '0');
 		l_n = (x % 10 + '0');
