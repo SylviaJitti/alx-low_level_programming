@@ -28,7 +28,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		c++;
+		x++;
 	}
 putchar('\n');
 return (0);
