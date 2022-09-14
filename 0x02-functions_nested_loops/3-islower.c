@@ -4,9 +4,9 @@
  * @c: is the int that we will use for the argument of the function
  * Retuen: 0
  */
-int _islower(int x)
+int _islower(int c)
 {
-	if (x >= 'a' && x <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
