@@ -23,18 +23,13 @@ int main(void)
 		}
 		else if ((num % 5) == 0)
 		{
-			if (num != 100)
-			{
-				printf("Buzz ");
-			}
-			else
-			{
-				printf("%d", num);
-			}
+			printf("Buzz ")
 		}
-		printf("\n");
-
+		else
+		{
+			printf("%d", num);
+		}
 	}
-
-	return (0);
+		printf("\n");
+		return (0);
 }
