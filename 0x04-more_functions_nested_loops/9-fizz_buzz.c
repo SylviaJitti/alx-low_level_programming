@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints either number
- * or fizz or buzz or fizzBuzz
- *
- * Return: return 0
+ * main - prints Buzz each numbers of 3 and 5
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,7 +11,7 @@ int main(void)
 
 	n = 1;
 	printf("%d", n);
-	for (n = 2; n >= 100; n++)
+	for (n = 2; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 		{
