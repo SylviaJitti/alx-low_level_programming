@@ -13,7 +13,7 @@ int _atoi(char *s)
 	unsigned int fig = 0;
 
 	do {
-		if (*s == '_')
+		if (*s == '-')
 			sin *= -1;
 
 		else if (*s >= '0' && *s <= '9')
