@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * infinte_add - adds two numbers
+ * infinite_add - adds two numbers
  * @n1: first number
  * @n2: second number
  * @r: buffer for result
@@ -9,7 +9,7 @@
  *
  * Return: address of r or 0
  */
-char *infinte_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j, k, l, m, n;
 
