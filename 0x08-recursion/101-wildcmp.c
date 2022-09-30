@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -9,6 +10,8 @@
  */
 
 >>>>>>> ad4d7289612bdbc38555b2afbd32be5e7410e4a2
+=======
+>>>>>>> aab62ef0905742ff8557025b0fe788fd3cf1e19f
 #include "main.h"
 
 int strlen_no_wilds(char *str);
