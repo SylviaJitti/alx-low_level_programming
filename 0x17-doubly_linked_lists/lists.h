@@ -1,11 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*
- * File: lists.h
- * Auth: Sylvia Jitti
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
