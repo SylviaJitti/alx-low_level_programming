@@ -1,6 +1,5 @@
 /*
  * File: 0-print_dlistint.c
- * Auth: Sylvia Jitti
  */
 
 #include "lists.h"
